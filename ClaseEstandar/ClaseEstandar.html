@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var base = 2;
+        var exponente = 4;
+
+        var potencia = Math.pow(base, exponente);
+        document.write("Método pow: " + potencia + "<br/>");
+
+        document.write("Método Ceil: " + Math.ceil(4.2) + "<br/>"); //Redondea hacia arriba
+        document.write("Método Floor: " + Math.floor(3.8) + "<br/>");//Redondea hacia abajo 
+        document.write("Método Round: " + Math.round(9.7) + "<br/>");//Redondea según el decimal
+        document.write("Método Sqrt: " + Math.sqrt(49) + "<br/>");//Saca raíz
+        document.write("Método Trunct: " + Math.trunc(12.56) + "<br/>");//Quita el decimal
+        document.write("Método Random 1: " + Math.random() + "<br/>");//Numero random de 0 a 1
+        document.write("Método Random 2: " + (Math.random () * 10) + "<br/>");//Numero random mayor a 1
+        document.write("Método Random 3: " + (Math.trunc(Math.random() * 10)) + "<br/>");//Numero random mayor a 1 sin decimal
+    </script>
+</body>
+</html>
