@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cadena = "hola mundo";
+        var nombre = "   Daniel Perez   ";
+
+        document.write("Método Lenght: " + cadena.length + "<br/>"); //Cantidad de caracteres
+        document.write("Método ChartAt: " + cadena.charAt(0) + "<br/>");//Según lo indicado en donde incia
+        document.write("Método Substring: " + cadena.substring(0, 3) + "<br/>");//Primer número donde quiero que inice y el otro la cantidad de caracteres
+        document.write("Método Uppercase: " + cadena.toUpperCase() + "<br/>");//Convierte a Mayúsculass
+        document.write("Método Lowercase: " + cadena.toLowerCase() + "<br/>");//Convierte a minúsculas
+        document.write("Método Index: " + cadena.indexOf("mundo") + "<br/>");//Según lo indicado, donde inicia (en forma de número)
+        document.write("Método Concat: " + cadena.concat(" mundial", " Daniel") + "<br/>");//Concatena
+        document.write("Nombre: " + nombre.length + "<br/>");
+        document.write("Método Trim: " + nombre.trim().length + "<br/>");//Quita espacios de inicio y final 
+        var c = cadena.split("");
+        document.write("Método Reverse: " + c.reverse().join("") + "<br/>");//Método reversa y join quita los espacios entre letras y las sustituye por vacíos
+    </script>
+</body>
+</html>
